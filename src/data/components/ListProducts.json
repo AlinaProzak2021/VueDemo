@@ -1,0 +1,34 @@
+{
+    "ListProducts": [
+        {
+            "image": "./assets/images/woodenTable.jpg",
+            "title": "Стол деревянный",
+            "price": 9999
+        },
+        {
+            "title": "Стул деревянный",
+            "price": 4000,
+            "image": "./assets/images/woodenСhair.jpg"
+        },
+        {
+            "title": "Стол компьютерный",
+            "price": 9999,
+            "image": "./assets/images/computertable.jpg"
+        },
+        {
+            "title": "Стул компьютерный",
+            "price": 9999,
+            "image": "./assets/images/computerCair.jpg"
+        },
+        {
+            "title": "Диван угловой",
+            "price": 19999,
+            "image": "./assets/images/cornerSofa.jpg"
+        },
+        {
+            "title": "Диван раскладной",
+            "price": 19999,
+            "image": "./assets/images/sofa.jpg"
+        }
+    ]
+}

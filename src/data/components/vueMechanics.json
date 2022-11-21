@@ -1,0 +1,17 @@
+{
+    "Data": "Data",
+    "Props": "Props",
+    "Computed": "Computed",
+    "Watch": "Watch",
+    "Methods": "Methods",
+    "Created": "Created",
+    "Mounted": "Mounted",
+    "v-for": "V-for",
+    "v-if": "V-if",
+    "v-else": "V-else",
+    "v-show": "V-show",
+    "@events": "@events",
+    "v-model": "v-model",
+    "dinamic-components": "dinamic-components",
+    "json-import": "json import"
+}

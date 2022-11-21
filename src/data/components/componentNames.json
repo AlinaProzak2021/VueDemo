@@ -1,0 +1,20 @@
+{
+    "StartLeftApplications": "StartLeftApplications",
+    "StartConfiguration": "StartConfiguration",
+    "SettingsApplication": "SettingsApplication",
+    "applications": {
+        "ComputedVue": "ComputedVue",
+        "CreatedVue": "CreatedVue",
+        "DataVue": "DataVue",
+        "Events": "Events",
+        "JsonImprtVue": "JsonImprtVue",
+        "MethodsVue": "MethodsVue",
+        "MountedVue": "MountedVue",
+        "PropsVue": "PropsVue",
+        "VifVelse": "VifVelse",
+        "VmodelVue": "VmodelVue",
+        "Vshow": "Vshow",
+        "WatchVue": "WatchVue",
+        "VFor": "VFor"
+    }
+}
