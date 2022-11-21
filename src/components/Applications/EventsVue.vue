@@ -143,4 +143,9 @@ export default {
 .events-mechanics-submit > .events-mechanics-message {
   text-align: center;
 }
+@media (max-width: 360px) {
+  .events-mechanics-form {
+    width: 100%;
+  }
+}
 </style>

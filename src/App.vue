@@ -23,22 +23,22 @@ export default {
 
 <style>
 :root {
-  --background-color-left-app: #61e7ff;
-  --background-color-right-app: #acf2e0;
+   --background-color-left-app: white;
+  --background-color-right-app: white;
   --color-text-left-app: black;
   --color-text-title-right-app: black;
-  --color-text-right-app: black;
-  --color-text-right-app-hover: white;
   --background-color-right-app-element: white;
-  --background-color-left-app-element: #fffefb;
-  --border-color-left-app: #8a2be2;
-  --border-color-right-app: #8a2be2;
-  --text-color-error-message: #eb4034;
-  --background-color-hover: dodgerblue;
-  --text-color-button: white;
-  --background-color-not-allowed: #a9a9a9;
+  --background-color-left-app-element: white;
+  --border-color-left-app: black;
+  --border-color-right-app: black;
+  --text-color-error-message: red;
+  --background-color-hover: blue;
+  --text-color-button: black;
+  --transition-sec: 0.3s;
+  --transform-scale: 1.2;
+  --transform-rotate: 45deg;
+  --negative-transform-rotate: -45deg;
   --font-family: "Times New Roman", sans-serif;
-  --font-size: 14px; 
 }
 * {
   margin: 0;

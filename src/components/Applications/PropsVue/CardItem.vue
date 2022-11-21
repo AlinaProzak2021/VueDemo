@@ -14,7 +14,7 @@ export default {
 </script>
 <style scoped>
 .card-item {
-  width: 150px;
+  min-width: 150px;
   background: var(--background-color-left-app-element);
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04),
     0px 6px 10px rgba(0, 0, 0, 0.02);

@@ -70,4 +70,11 @@ export default {
   background-color: var(--background-color-left-app-element);
   margin-bottom: 10px;
 }
+@media (max-width:760px) {
+    .watch-mechanics-message{
+        max-width: 300px;
+        text-align: center;
+    }
+    
+}
 </style>

@@ -4,7 +4,7 @@ export default {
 };
 </script>
 <style>
-.lightTheme {
+.brightTheme {
   --background-color-left-app: #61e7ff;
   --background-color-right-app: #acf2e0;
   --color-text-left-app: black;
@@ -20,15 +20,15 @@ export default {
   --text-color-button: white;
   --background-color-not-allowed: #a9a9a9;
 }
-.DarkTheme {
-  --background-color-left-app: #40e0d0;
-  --background-color-right-app: #ffb6c1;
+.pastelTheme {
+  --background-color-left-app: #FFF3F3;
+  --background-color-right-app: #F2D2FF;
   --color-text-left-app: black;
   --color-text-title-right-app: black;
   --color-text-right-app: black;
   --color-text-right-app-hover: white;
-  --background-color-right-app-element: #87cefa;
-  --background-color-left-app-element: #fffefb;
+  --background-color-right-app-element: #D2FFFA;
+  --background-color-left-app-element: #D2FFFA;
   --border-color-left-app: #8a2be2;
   --border-color-right-app: #1e90ff;
   --text-color-error-message: #eb4034;

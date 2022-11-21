@@ -38,7 +38,7 @@ export default {
   width: 200px;
   height: 200px;
   transition: var(--transition-sec);
-  pointer-events: none;
+ 
 }
 .left-app-img:hover {
   transform: scale(var(--transform-scale));

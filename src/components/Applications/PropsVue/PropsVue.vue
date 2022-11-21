@@ -45,10 +45,12 @@ export default {
   height: 100%;
   display: flex;
   align-items: center;
+   flex-wrap: wrap;
   flex-direction: column;
 }
 .props-mechanics-title {
   margin-bottom: 15px;
+  font-weight: normal;
 }
 .card-list {
   width: 90%;
@@ -56,5 +58,10 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+@media (max-width:360px) {
+  .card-list {
+    justify-content:space-around;
+  }
 }
 </style>

@@ -31,7 +31,9 @@ import VmodelVue from "./Applications/VmodelVue.vue";
 import Vshow from "./Applications/VshowVue.vue";
 import WatchVue from "./Applications/WatchVue.vue";
 import SettingsApplication from "./Applications/SettingsApplication.vue";
-import VFor from "./Applications/VFor.vue"
+import VFor from "./Applications/VFor.vue";
+import ApplicationOne from "./Applications/ApplicationOne.vue";
+import CustomSelect from "./Applications/CustomSelect.vue";
 export default {
   components: {
     StartLeftApplications,
@@ -49,7 +51,9 @@ export default {
     Vshow,
     WatchVue,
     SettingsApplication,
-    VFor
+    VFor,
+    ApplicationOne,
+    CustomSelect
   },
   data() {
     return {};

@@ -55,6 +55,7 @@ export default {
 }
 .json-import-title {
   margin-bottom: 15px;
+  font-weight: 400;
 }
 .countries-list {
   display: flex;
@@ -84,5 +85,12 @@ img {
 }
 .country-name, .country-capital{
     margin-bottom: 10px;
+}
+@media (max-width: 760px) {
+    .countries-list{
+        justify-content: center;
+         width: 100%;
+    }
+  
 }
 </style>

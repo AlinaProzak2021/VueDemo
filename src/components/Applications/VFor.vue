@@ -56,6 +56,8 @@ export default {
 }
 .v-for-mechanics-title {
   margin-bottom: 10px;
+  font-size: var(--font-size);
+  font-weight: 400;
 }
 .mechanics-list {
   display: flex;
@@ -80,4 +82,5 @@ export default {
 .mechanics-item-title {
   margin-bottom: 10px;
 }
+ 
 </style>

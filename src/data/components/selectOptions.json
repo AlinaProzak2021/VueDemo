@@ -1,0 +1,24 @@
+{
+    "selectOptions": [
+        {
+            "optionText": "Первый пункт",
+            "optionImg": "./assets/images/avatarko_anonim.jpg"
+        },
+        {
+            "optionText": "Второй пункт",
+            "optionImg": "./assets/images/1560158812128476833.png"
+        },
+        {
+            "optionText": "Третий пункт",
+            "optionImg": "./assets/images/rdsg.jpg"
+        },
+        {
+            "optionText": "Четвертый пункт",
+            "optionImg": "./assets/images/art.jpg"
+        },
+        {
+            "optionText": "Пятый пункт",
+            "optionImg": "./assets/images/klassnye-32.jpg"
+        }
+    ]
+}

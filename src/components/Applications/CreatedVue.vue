@@ -41,4 +41,7 @@ export default {
   height: 100%;
   align-items: center;
 }
+.created-mechanics-title{
+    font-size: var(--font-size);
+}
 </style>

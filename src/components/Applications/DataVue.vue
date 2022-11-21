@@ -53,7 +53,7 @@ export default {
   margin-bottom: 15px;
 }
 .font-size-big {
-  font-size: 36px;
+  font-size: calc(var(--font-size)*2);
 }
 .data-mechanics-button {
   width: 190px;

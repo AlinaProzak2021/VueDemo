@@ -54,9 +54,10 @@ export default {
   align-items: center;
 }
 .computed-mechanics-title {
-  font-size: 14px;
+  font-size: var(--font-size);
   text-align: center;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 .computed-mechanics-input {
   padding-left: 15px;
@@ -65,14 +66,12 @@ export default {
   border-radius: 5px;
   outline: none;
   border: 1px solid var(--border-color-left-app);
-  font-size: 12px;
   background-color: var(--background-color-left-app-element);
   margin: 0 auto;
   margin-bottom: 10px;
 }
 .error-message {
   text-align: center;
-  font-size: 14px;
   color: var(--text-color-error-message);
   font-weight: bold;
   padding-top: 0;

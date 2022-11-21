@@ -85,7 +85,7 @@ export default {
   data() {
     return {
       selectLeftApplication: componentNames.applications.ComputedVue,
-      selectTheme: themes.LightTheme,
+      selectTheme: themes.brightTheme,
       selectAppFont: fonts.Times,
       selectAppFontSize: fontSizes.averageFont,
     };
@@ -117,19 +117,21 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   font-weight: 400;
+  font-weight: normal;
 }
 .select-settings {
-  width: 400px;
+  width: 80%;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 .configuration-title {
   margin-top: 30px;
-  font-size: 18px;
+  font-size: var(--font-size);
   letter-spacing: 0.1em;
   margin-bottom: 30px;
+  
   text-align: center;
 }
 .configuration-select {
@@ -152,7 +154,6 @@ select {
   border-radius: 4px;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
   line-height: 15px;
   color: var(--color-text-right-app);
   cursor: pointer;
@@ -175,6 +176,11 @@ select {
   .configuration-select {
     width: 100%;
     margin-bottom: 40px;
+  }
+}
+@media (max-width: 360px) {
+  select {
+    width: 200px;
   }
 }
 </style>
