@@ -41,7 +41,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .application-data-mechanics {
   width: 100%;
   height: 100%;

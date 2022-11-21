@@ -45,7 +45,8 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
+
 .application-v-for-mechanics {
   width: 100%;
   display: flex;

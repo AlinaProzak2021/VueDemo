@@ -13,10 +13,10 @@ import { mapMutations, mapState } from "vuex";
 export default {
   name: "start-left-app",
   computed: {
-     ...mapState(["dinamicLeftComponent"]),
+    ...mapState(["dinamicLeftComponent"]),
   },
   methods: {
-    ...mapMutations(["setCurrentLeftComponent"])
+    ...mapMutations(["setCurrentLeftComponent"]),
   },
 };
 </script>
@@ -38,6 +38,7 @@ export default {
   width: 200px;
   height: 200px;
   transition: var(--transition-sec);
+  pointer-events: none;
 }
 .left-app-img:hover {
   transform: scale(var(--transform-scale));

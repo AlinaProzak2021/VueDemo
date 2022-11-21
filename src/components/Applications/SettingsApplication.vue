@@ -1,6 +1,6 @@
 <template>
   <div class="configuration-container">
-   <ButtonBackToStartComponent :backToStartApp="backToStartRightComponent" />
+    <ButtonBackToStartComponent :backToStartApp="backToStartRightComponent" />
     <div class="select-settings">
       <h3 class="configuration-title">Вы можете выбрать тему и приложение</h3>
       <section class="configuration-select">
@@ -91,7 +91,7 @@ export default {
     };
   },
   computed: {
-    ...mapState(["themes", "fonts", "fontSizes","componentNames"]),
+    ...mapState(["themes", "fonts", "fontSizes", "componentNames"]),
   },
   methods: {
     ...mapGetters(["getApplicationList"]),
@@ -100,7 +100,7 @@ export default {
       "setCurrentTheme",
       "setCurrentAppFont",
       "setCurrentFontSize",
-      "setCurrentRightComponent"
+      "setCurrentRightComponent",
     ]),
     backToStartRightComponent() {
       this.setCurrentRightComponent(this.componentNames.StartConfiguration);
@@ -111,13 +111,13 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .configuration-container {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+
   font-weight: 400;
 }
 .select-settings {

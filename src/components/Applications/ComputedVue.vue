@@ -45,12 +45,13 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .application-computed-mechanics {
   width: 100%;
   display: flex;
   flex-direction: column;
   height: 100%;
+  align-items: center;
 }
 .computed-mechanics-title {
   font-size: 14px;

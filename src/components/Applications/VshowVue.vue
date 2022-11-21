@@ -46,7 +46,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .application-v-show-mechanics {
   width: 100%;
   height: 100%;

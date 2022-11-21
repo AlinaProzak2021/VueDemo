@@ -1,0 +1,24 @@
+{
+    "countries": [
+        {
+            "country": "Russia",
+            "capital": "Moscow",
+            "image": "./assets/images/Moscow.jpg"
+        },
+        {
+            "country": "USA",
+            "capital": "Washington",
+            "image": "./assets/images/USA.png"
+        },
+        {
+            "country": "Ukraine",
+            "capital": "Kyiv",
+            "image": "./assets/images/Kiev.jpg"
+        },
+        {
+            "country": "Japan",
+            "capital": "Tokyo",
+            "image": "./assets/images/Tokyo.jpg"
+        }
+    ]
+}
